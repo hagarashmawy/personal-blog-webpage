@@ -1,0 +1,8 @@
+.flexbox-item {
+    height: 30px;
+    font-size: 15px;
+    text-align: justify;
+    display: flex;
+    margin: 3rem;
+    border-left: 2rem;
+}

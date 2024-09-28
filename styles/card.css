@@ -1,0 +1,29 @@
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+@media (max-width:500px) {
+    .card-list{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:1000px) and ( min-width: 500px) {
+    .card-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+figcaption {
+    font-size: 10px;
+    font-style: italic;   
+}
+.card-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+}

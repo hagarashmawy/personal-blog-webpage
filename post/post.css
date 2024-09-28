@@ -1,0 +1,38 @@
+
+p {
+    align-items: center;
+}
+
+h1 {
+   text-align: center; 
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+#bio {
+    font-size: 10px;
+    text-align: flex;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.post-footer {
+    text-align: center;
+    font-size: 15px;   
+}
+#author-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.post-img {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    object-fit: cover;
+}
