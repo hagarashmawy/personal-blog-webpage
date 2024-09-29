@@ -2,54 +2,48 @@
 @import url("./flexbox-item.css");
 @import url("./list.css");
 
-
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
 .box {
-    display: flex;
-    align-items: stretch;
+  display: flex;
+  align-items: stretch;
 }
 
 nav {
-    text-align: justify;
-    color: maroon;
+  text-align: justify;
+  color: maroon;
 }
 h1 {
-    font-size: 50px;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration:underline;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
 }
 
-
-
 p {
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-    
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 footer {
-    text-align: center;
-    display: grid;
+  text-align: center;
+  display: grid;
 }
 
 #navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-
-
 button {
-    padding:0.5rem 1rem;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    background-color: blueviolet;
-    color: whitesmoke;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: blueviolet;
+  color: whitesmoke;
 }
